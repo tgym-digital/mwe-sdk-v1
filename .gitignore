@@ -1,0 +1,168 @@
+# General
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+*.log
+*.cache
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Build outputs and dependencies
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Node.js (if any web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+local.properties
+proguard/
+lint/
+*.hprof
+
+# Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/misc.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# iOS
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.xcscheme
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# Carthage
+Carthage/Build
+
+# Swift Package Manager
+.build/
+Package.resolved
+*.xcodeproj
+
+# Archives and compressed files (excluding SDK binaries)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# But keep SDK binaries that are meant to be distributed
+!sdk/android/openplatform.aar
+!sdk/ios/openplatform.zip
+
+# Module archives (these seem to be distribution packages)
+!modules/prod/*.zip
+!modules/test/*.zip
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*~.nib
+
+# Security and credentials
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+secrets.properties
+google-services.json
+GoogleService-Info.plist
+
+# Documentation build
+docs/_build/
+site/
+
+# Test results and coverage
+test-results/
+coverage/
+*.coverage
+.nyc_output/
+junit.xml
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.test
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
